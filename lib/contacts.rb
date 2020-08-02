@@ -20,6 +20,7 @@ contacts.each do |person, contact_details_hash|
 if person == "Freddy Mercury"
   contact_details_hash.each do |attribute, data|
     if attribut == :favorite_ice_cream_flavors
+      binding.pry
       end
     end 
    end 
